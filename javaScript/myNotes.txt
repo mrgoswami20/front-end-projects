@@ -1,0 +1,7 @@
+js -> ES5(old -v), vES6(new -v) [ecma script]
+
+Execution context
+lexical environment
+
+Q. how to copy referance value?
+A-> spread operator: like a = [1,2,3,4,5]; and b = [...a]; here b take all copy value of a.

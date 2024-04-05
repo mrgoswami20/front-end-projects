@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false" class="search-city">
+            <button id="btn" ><img src="./images/search-512.png"></button>
+        </div>
+        <div class="weather">
+            <img class="weather-icon" src="images/cloudy_sun.png">
+            <h1 class="temp" >22°c</h1>
+            <h2 class="city">New York</h2>
+        </div>
+        <div class="details">
+            <div class="col">
+                <img src="./images/weather.png">
+                <div class="humidity">
+                    <p id="humidity">56%</p>
+                    <h3>Humidity</h3>
+                </div>
+            </div>
+            <div class="col">
+                <img src="/images/air.png">
+                <div class="wind">
+                    <p id="wind-speed">10.32 km/h</p>
+                    <h3>Wind Speed</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js" ></script>
+</body>
+</html>
